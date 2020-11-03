@@ -1,0 +1,18 @@
+{
+  "name": "hello-mf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ragu:build": "ragu-server build ragu-config.js",
+    "ragu:start": "ragu-server run ragu-config.js",
+    "ragu:dev": "ragu-server dev ragu-config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "ragu-react-server-adapter": "0.0.4",
+    "ragu-server": "^0.0.35"
+  }
+}
