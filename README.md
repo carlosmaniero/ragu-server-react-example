@@ -2,6 +2,25 @@
 
 A micro-frontend to say Hello, World!
 
+## Running
+
+```bash
+npm install
+```
+
+### Development server
+
+```bash
+npm run ragu:dev
+```
+
+### Production server
+
+```bash
+npm run ragu:build
+npm run ragu:start
+```
+
 ## Example 1: Simple hello world
 
 Renders a React component saying hello:
